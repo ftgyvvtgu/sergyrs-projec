@@ -1,0 +1,14 @@
+h1 {font-family: impact;}
+h1 {color: rgb(127, 0, 127);}
+h1 { font-size: 45pt;}
+button, textarea {margin: 5px; font-size: 20pt; font-weight: bold; font-family: calibri;}
+button {width: 100px; height: 70px;}
+textarea {
+	width: 325px;
+	height: 70px;
+	text-align: right;
+}
+.double-width {width: 215px;}
+.op {background-color: yellow;}
+#clear {background-color: orange;}
+img {width: 200px; height: 200px;}

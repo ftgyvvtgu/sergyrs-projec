@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css">
+			<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Page with My Calculator</h1>
+		<img src="https://im0-tub-ru.yandex.net/i?id=57206ee9838bebab9d19407092297a66&n=13" alt="Изображение калькулятора"><br>
+			<textarea readonly id="display">0</textarea>
+			<button id="clear" onclick="get_result(this);">←</button><br>
+			
+			<button class="op" onclick="get_result(this);">√</button>
+			<button class="op" onclick="get_result(this);">sin</button>
+			<button class="op" onclick="get_result(this);">cos</button>
+			<button class="op" onclick="set_op(this);">÷</button><br>
+
+			<button onclick="set_digit(this);">7</button>
+			<button onclick="set_digit(this);">8</button>
+			<button onclick="set_digit(this);">9</button>
+			<button class="op" onclick="set_op(this);">×</button><br>
+
+			<button onclick="set_digit(this);">4</button>
+			<button onclick="set_digit(this);">5</button>
+			<button onclick="set_digit(this);">6</button>
+			<button class="op" onclick="set_op(this);">−</button><br>
+			
+			<button onclick="set_digit(this);">1</button>
+			<button onclick="set_digit(this);">2</button>
+			<button onclick="set_digit(this);">3</button>
+			<button class="op" onclick="set_op(this);">+</button><br>
+			
+			<button class="double-width" onclick="set_digit(this);">0</button>
+			<button onclick="set_digit(this);">.</button>
+			<button class="op" onclick="get_result(this);">=</button>
+
+		</form>
+	</body>
+</html>
